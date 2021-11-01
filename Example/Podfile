@@ -6,8 +6,7 @@ target 'JLRoutesExtension_Example' do
   pod 'JLRoutesExtension', :path => '../'
 
   target 'JLRoutesExtension_Tests' do
-    inherit! :search_paths
-
+    inherit! :search_paths 
     
   end
 end

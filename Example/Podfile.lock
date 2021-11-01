@@ -1,0 +1,16 @@
+PODS:
+  - JLRoutesExtension (0.1.0)
+
+DEPENDENCIES:
+  - JLRoutesExtension (from `../`)
+
+EXTERNAL SOURCES:
+  JLRoutesExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JLRoutesExtension: 90c6f7d1a79b22db45fbf58853230311c3572483
+
+PODFILE CHECKSUM: 227953ff4622188f0c61420e3d487278bed716a2
+
+COCOAPODS: 1.11.2

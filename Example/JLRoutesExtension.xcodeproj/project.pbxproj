@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		135021CEA5BA743473108CF4 /* Pods-JLRoutesExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLRoutesExtension_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JLRoutesExtension_Tests/Pods-JLRoutesExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1F44CBECBF615C6C197B4DE9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1F44CBECBF615C6C197B4DE9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2E53163CD78CAC0C48D07F5B /* Pods_JLRoutesExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLRoutesExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BBED3723075A24D2CE2C678 /* Pods-JLRoutesExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLRoutesExtension_Tests.release.xcconfig"; path = "Target Support Files/Pods-JLRoutesExtension_Tests/Pods-JLRoutesExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JLRoutesExtension_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLRoutesExtension_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,9 +62,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8ABE8FF24B857445832EBCD9 /* JLRoutesExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JLRoutesExtension.podspec; path = ../JLRoutesExtension.podspec; sourceTree = "<group>"; };
+		8ABE8FF24B857445832EBCD9 /* JLRoutesExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JLRoutesExtension.podspec; path = ../JLRoutesExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AC97D411A56DC4A53E3B4A03 /* Pods-JLRoutesExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLRoutesExtension_Example.release.xcconfig"; path = "Target Support Files/Pods-JLRoutesExtension_Example/Pods-JLRoutesExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B1A5C80EF8602C50FD9E1C97 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B1A5C80EF8602C50FD9E1C97 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C86518CF4DF26CA8FA3C36AA /* Pods-JLRoutesExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLRoutesExtension_Example.debug.xcconfig"; path = "Target Support Files/Pods-JLRoutesExtension_Example/Pods-JLRoutesExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EDD2A92EE76AF44FAB9D0787 /* Pods_JLRoutesExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLRoutesExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				135021CEA5BA743473108CF4 /* Pods-JLRoutesExtension_Tests.debug.xcconfig */,
 				4BBED3723075A24D2CE2C678 /* Pods-JLRoutesExtension_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
